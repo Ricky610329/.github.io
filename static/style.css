@@ -90,11 +90,8 @@ html, body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 增加一點陰影，讓白色文字在圖片上更清晰 */
 }
 
-#panel-top-right {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-    background-color: rgb(255, 162, 76);
-}
+
+
 #panel-top-right .panel-default-content {
   width: 100px;
   height: 100px;
@@ -108,8 +105,6 @@ html, body {
     display: flex;
     /* 讓內容物從頂部開始對齊 */
     align-items: flex-start;
-    background-color: rgb(232, 218, 178);
-    color: #000000;
 }
 
 /* 2. 針對標題文字進行樣式設定 */
